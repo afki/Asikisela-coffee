@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asikisela</title>
+
+    <link rel="stylesheet" href="gaya.css" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font end -->
+
+    <!-- icon title start -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/images/asikisela blk.png"
+    />
+    <!-- icon title end -->
+
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- feather icon end -->
+
+    <!-- leaflet css  -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <!-- Leaflet css end -->
+
+    <!-- Leaflet Js -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <!-- Leaflet Js -->
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar" id="stickyNav">
+      <div class="navbar-logo">
+        <a href="#">
+          <img src="assets/images/asikisela TEXT WHT.png" />
+        </a>
+      </div>
+
+      <div class="navbar-nav">
+        <a href="#">HOME</a>
+        <a href="menu.html">MENU</a>
+        <a href="news.html">NEWS</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="find us.html">FIND US</a>
+        <a href="about us.html">ABOUT US</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- navbar end -->
+
+    <header class="parallax head">
+      <div class="cont-hlogo">
+        <img src="assets/images/asikisela wht.png" class="hlogo" />
+        <p>
+          <br />Somethimes having a coffee with your bestfriend<br />
+          is the only theraphy you need
+        </p>
+      </div>
+    </header>
+
+    <!-- asikisela regards -->
+
+    <div class="cont-regards">
+      <div class="title"><h1>ASIKISELA</h1></div>
+      <div class="isiregards">
+        <p>
+          Ngobrol bersama saudara atau teman tidak selalu perlu perihal sesuatu
+          yang krusial. <br />Membahas lelucon lama atau sekedar duduk ngopi di
+          sudut kedai pun bisa jadi solusi melewatkan hari. <br /><br /><br />
+        </p>
+      </div>
+    </div>
+
+    <!-- asikisela regards end -->
+
+    <!-- cerita kami  -->
+    <section class="cards">
+      <article class="card">
+        <div class="card-img">
+          <img src="assets/images/cerita kami.jpg " alt="" />
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-cerita">
+          <h3>Cerita kami</h3>
+          <p>
+            <br /><br />
+            Bermula dari tugas kuliah di mata kuliah wirausahaan kami merancang
+            sebuah toko kopi kami sendiri mulai dari ide kecil itu berubah
+            menjadi sebuah mimpi untuk membuat kedai kopi kami sendiri mulai
+            dengan stand kecil di sebuah bazar di kampus lalu pada event'
+            tertentu akhirnya kami bisa mendisrikan kedai kopi kami sendiri.<br /><br />Lorem
+            Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only
+            five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+          <div class="button to-aboutus">
+            <a href="about us.html">Read More..</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- cerita kami end -->
+
+    <!-- offers -->
+
+    <div class="title-offer"><h1>WE OFFER YOU</h1></div>
+    <div class="text-offer">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt iste
+        provident eveniet, quasi consequuntur aliquid ipsam quaerat soluta amet
+        et neque cupiditate ab sapiente ut animi sed rerum totam eius?
+      </p>
+    </div>
+
+    <section class="cont-offer">
+      <div class="offer">
+        <a href="menu.html" class="offer-img">
+          <img src="assets/images/icon1 blk.jpg" alt="" />
+        </a>
+        <p>Coffee</p>
+      </div>
+      <a href="menu.html" class="offer">
+        <div class="offer-img">
+          <img src="assets/images/icon2 blk.jpg" alt="" />
+        </div>
+        <p>Sweets</p>
+      </a>
+      <a href="menu.html" class="offer">
+        <div class="offer-img">
+          <img src="assets/images/icon4 blk.jpg" alt="" />
+        </div>
+        <p>Snack & Baverages</p>
+      </a>
+      <a href="gallery.html" class="offer">
+        <div class="offer-img">
+          <img src="assets/images/icon3 blk.jpg" alt="" />
+        </div>
+        <p>Work Spot</p>
+      </a>
+    </section>
+
+    <!-- offers end -->
+
+    <!-- video -->
+
+    <section class="cont-video">
+      <div class="btn">
+        <div class="play">
+          <i data-feather="play" width="40px" height="40px"></i>
+        </div>
+      </div>
+      <div class="clip">
+        <video src="assets/Video/video1.mp4" controls></video>
+        <div class="close">
+          <i data-feather="x" width="20px" height="20px"></i>
+        </div>
+      </div>
+    </section>
+    <!-- video end -->
+
+    <!-- news -->
+
+    <div class="title"><h1>LASTEST NEWS</h1></div>
+
+    <section class="cont-news">
+      <div onclick="location.href='news1.html';" class="news">
+        <div class="news-img">
+          <a href="#"><img src="assets/images/front.jpg" alt="" /></a>
+        </div>
+        <p>21/04/2023</p>
+        <a href="#" class="news-text"> ASIKISELA SEMARANG RESMI DIBUKA</a>
+      </div>
+      <div onclick="location.href='news2.html';" class="news">
+        <div class="news-img">
+          <a href="#"><img src="assets/images/kemasan.jpg" alt="" /></a>
+        </div>
+        <p>21/04/2023</p>
+        <a href="#" class="news-text">KEMASAN KOPI BARU</a>
+      </div>
+      <div onclick="location.href='news3.html';" class="news">
+        <div class="news-img">
+          <a href="#"><img src="assets/images/salad.jpg" alt="" /></a>
+        </div>
+        <p>21/04/2023</p>
+        <a href="#" class="news-text">TERBARU! MENU SALAD MAYO</a>
+      </div>
+    </section>
+    <div class="button to-findus"><a href="news.html">More News..</a></div>
+
+    <!-- news end -->
+
+    <!-- gallery -->
+
+    <div class="title"><h1>GALLERY</h1></div>
+
+    <section class="cont-gallery">
+      <div class="kotak">
+        <img src="assets/images/moment1.jpg" alt="" class="images" />
+        <a href="gallery.html" class="overlay">
+          <div class="overlay-text">BEST MOMENT</div>
+        </a>
+      </div>
+      <div class="kotak">
+        <img src="assets/images/barista1.jpg" alt="" class="images" />
+        <a href="gallery.html" class="overlay">
+          <div class="overlay-text">ASIKISELA</div>
+        </a>
+      </div>
+      <div class="kotak">
+        <img src="assets/images/kopi2.jpg" alt="" class="images" />
+        <a href="gallery.html" class="overlay">
+          <div class="overlay-text">COFFE DRIP</div>
+        </a>
+      </div>
+      <div class="kotak">
+        <img src="assets/images/interior2.jpg" alt="" class="images" />
+        <a href="gallery.html" class="overlay">
+          <div class="overlay-text">ENJOYMENT</div>
+        </a>
+      </div>
+    </section>
+
+    <!-- gallery end -->
+
+    <!-- lokasi  -->
+    <div class="title"><h1>FIND US</h1></div>
+    <section class="cards">
+      <article class="card">
+        <div class="card-img img-lokasi">
+          <img src="assets/images/front.jpg" alt="" />
+        </div>
+      </article>
+      <article class="card">
+        <div class="map-size" id="map"></div>
+      </article>
+    </section>
+    <div class="button to-findus"><a href="find us.html">ALL OUTLET</a></div>
+    <!-- lokasi end -->
+
+    <!-- back to top -->
+
+    <div class="cont-top" id="ignite">
+      <a href="#" class="to-top"
+        ><i data-feather="chevron-up" width="40px" height="40px"></i
+      ></a>
+    </div>
+
+    <!-- back to top end -->
+
+    <!-- footer start-->
+    <div class="foot-col">
+      <div class="foot-logo">
+        <img src="assets/images/asikisela wht.png" width="100%" />
+      </div>
+      <div class="footer copyr">
+        <p>
+          <b>ASIKISELA COFFEE</b><br />
+
+          <br />Jl. Wijaya Kusuma No.234, Dero, Condongcatur, Kec. Depok,
+          Kabupaten Sleman, Daerah Istimewa Yogyakarta 55283.
+        </p>
+      </div>
+      <div class="footer time">
+        <p>
+          <b>SERVING HOURS</b><br />
+          <br />SENIN - MINGGU 09:00-22:00
+        </p>
+      </div>
+      <div class="footer market">
+        <p><b>MARKETPLACE</b></p>
+        <a href="https://gofood.co.id/en"
+          ><img
+            src="assets/images/gofood.png"
+            alt=""
+            width="100px"
+            height="30px"
+        /></a>
+        <a href="https://food.grab.com/id/id/"
+          ><img
+            src="assets/images/grabfood.png"
+            alt=""
+            width="100px"
+            height="20px"
+        /></a>
+      </div>
+      <div class="footer contac">
+        <p><b>CONTACT US</b></p>
+        <a href="https://mail.google.com/"><p>asikisela@gmail.com</p></a>
+      </div>
+    </div>
+    <div class="foot">
+      <div class="ficon">
+        <div class="ico-footer">
+          <a href="https://www.facebook.com"
+            ><img src="assets/images/fb.png" height="40" width="40" alt="logo"
+          /></a>
+        </div>
+        <div class="ico-footer">
+          <a href="https://www.twitter.com"
+            ><img src="assets/images/tw.png" height="40" width="40" alt="logo"
+          /></a>
+        </div>
+        <div class="ico-footer">
+          <a href="https://www.instagram.com"
+            ><img src="assets/images/ig.png" height="40" width="40" alt="logo"
+          /></a>
+        </div>
+        <div class="ico-footer">
+          <a href="https://www.googleplus.com"
+            ><img src="assets/images/g.png" height="40" width="40" alt="logo"
+          /></a>
+        </div>
+      </div>
+      <p>
+        @Copyright - Asikisela Coffee - powered Enfold WordPress Theme<br />
+      </p>
+    </div>
+
+    <!-- footer end -->
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
